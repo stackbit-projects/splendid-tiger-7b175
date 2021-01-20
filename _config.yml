@@ -1,0 +1,83 @@
+title: Dumbarton
+email: null
+description: a minimalistic jekyll theme for academics
+baseurl: ''
+url: ''
+image: /assets/img/dumbarton.png
+image_alt: A minimalistic jekyll theme for academic
+author: John Doe
+profile_image: /assets/img/avatar/cropped.png
+occupation: null
+snippet: null
+twitter: tbutler0x90
+github: tcbutler320
+linkedin: tyler-b-a700a1aa
+stackoverflow: 12935605
+website: 'https://tbutler.org'
+codepen: tcbutler320
+pgp: null
+ctftime: null
+phonenumber: null
+tags: post jekyll styleguide ipsum
+comments: false
+gitalk_client_id: null
+gitalk_client_secret: null
+gitalk_repo: null
+gitalk_owner: null
+gitalk_admin: null
+gitalk_distraction_mode: false
+nav-color: '#00334e'
+footer-color: '#00334e'
+color-scheme: '#00334e'
+card-color: '#00334e'
+nav-dIcon: fas fa-caret-down
+animate: true
+home_option: education
+help_tips: false
+theme: null
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+  - jekyll-environment-variables
+sass:
+  sass_dir: _sass
+  style: compressed
+include:
+  - _posts
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+scholar:
+  last_name: Dumbarton
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: null
+  query: '@*'
+font_awesome_id: 32a2b2a489
+google-site-verification: null
+yandex-verification: null
+msvalidate: null
+alexaVerifyID: null
+pinterestdomain_verify: null
+norton-safeweb: null
+detectphone: 'yes'
+x-dns-prefetch-control: 'on'
+fbappid: null
